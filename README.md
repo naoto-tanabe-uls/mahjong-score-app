@@ -53,7 +53,7 @@ docker-compose up -d
 ### バックエンド起動
 ```bash
 cd backend
-mvn spring-boot:run
+mvn spring-boot:run -Dspring-boot.run.profiles=dev
 ```
 
 ### フロントエンド起動

@@ -39,8 +39,8 @@ mvnw
 mvnw.cmd
 
 # Spring Boot
-application-local.yml
-application-dev.yml
+# application-local.yml
+# application-dev.yml
 
 # Backend
 backend/target/

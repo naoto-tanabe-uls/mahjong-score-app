@@ -1,8 +1,8 @@
-spring:
+6spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/mahjong_db
-    username: mahjong_user
-    password: mahjong_pass
+    url: jdbc:postgresql://mahjong-score-app-db.postgres.database.azure.com:5432/postgres?mode=require
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
   
   jpa:
